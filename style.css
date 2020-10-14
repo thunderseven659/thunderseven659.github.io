@@ -6,25 +6,37 @@ div#intro{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(26, 38, 153, 0.42);
+    background: rgba(17, 26, 153, 0.32);
+
 }
+div#background{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 div#intro img#picture{
-    border-radius: 80%;
-    height: 150px;
-    width: 150px;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
 }
 div.section{
-    
     display: flex;
-    height: 400px;
+    height: 800px;
     box-shadow: inset 0px 0px 19px 10px rgba(0,0,0,0.4);
 
 }
 h3#binus{
-    color: gray;
+    color: rgb(187, 181, 181);
 }
-img#background{
-    z-index: -1;
-    position: absolute;
+div#skill{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(75, 119, 241);
+}
 
+img#picture-skill{
+    border-radius: 50%;
 }
