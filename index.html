@@ -13,10 +13,12 @@
 </head>
 
 <body>
-  <div id="background">
-    <div id="intro" class="section">
+  <div id="background" class="img-fluid container-fluid">
+    <div id="intro" class="section d-flex">
+      <a href="https://www.linkedin.com/in/jason-timotius-purwoko-0007081b8/" target="_blank">
+        <img id="picture" src="profil.jpg" alt="Foto profile" class="img-thumbnail img-fluid">
+      </a>
 
-      <img id="picture" src="profile.png" alt="Foto profile" class="img-thumbnail img-fluid">
       <h1 class="pt-5 mx-auto" style='color:aliceblue'>
         Jason Timotius Purwoko
       </h1>
@@ -28,43 +30,134 @@
         —Master Track Teknik Informatika
       </h3>
     </div>
-  </div>
-  <div id="skill" class="section">
-    <h1 class="pt-5" style='color:aliceblue'>
-      <p class="text-xl" style="font-size: 70px;">
-        Skills
-      </p>
+    <div id="aboutme" class="section d-flex flex-column">
+      <div id="about_card" class="card text-center  justify-content-center align-item-center align-self-center mt-5 mb-5"
+        style="width: 80vw;">
+        <h5 id="about_title" class="card-title " style="font-size: 70px;border-bottom: 2px solid #646410;">About Me</h5>
+        <div id="about_par" class="card-body" style="font-size: 30px;">
+          <p> Hello, my name is Jason Timotius Purwoko and welcome to my portofolio.
+            I am a student of Computer Science Department.
+            I made this portofolio to share my own info about my life and especially
+            my passion in Programming.
+            I learned to code because its fun to solve problem around me using code. Later on, I started to learn
+            lots of subjects in university.<br><br><br>
+            The subject that i like the most is a project based subject such as Object Oriented Analysis & Design
+            which required to make a mini project about supermarket cashier system and web application
+            which required me to make storing objects system. Because of the project above, i already accustomed to MVC
+            model framework
+            which i think helpful for making application that required database for store data.<br><br><br>
+            In my free days, i like to play games. I also made some mini-games like bejeweled in C which is the first
+            game
+            I made.
+            I also make a game using construct2 which is used for making flash games. I love to learn something new and
+            exciting.
+            I feel challenged if there is something that i don't understand especially in code.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="skill" class="section d-flex flex-column pt-5">
+      <div id="skill_card" class="card text-center  justify-content-center align-item-center align-self-center mt-5 mb-5"
+        style="width: 80vw;">
+        <h5 id="skill_title" class="card-title " style="font-size: 70px;border-bottom: 2px solid #724038;">Hard Skills
+          that I Mastered:</h5>
+        <div id="skill_tab" class="card-body d-flex justify-content-center align-item-center" style="font-size: 30px;">
+          <div id="skill-list" class="w-75 pt-5 ">
+            <div id=skill-name class="pb-5" style='color:aliceblue;font-size: 30px'>
+              <b>C/Java Programming</b>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div id=skill-name class="pb-5" style='color:aliceblue;font-size: 30px'>
+              <b>Python Programming</b>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div id=skill-name class="pb-5" style='color:aliceblue;font-size: 30px'>
+              <b>HTML/CSS</b>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div id=skill-name class="pb-5 " style='color:aliceblue;font-size: 30px'>
+              <b>Laravel Framework</b>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"></div>
 
-    </h1>
-    <div id="skill-list" class="w-75 pt-5">
-      <div id=skill-name class="pb-5">
-        <b>Skill1</b>
-        <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div id=skill-name class="pb-5">
-        <b>Skill2</b>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div id=skill-name class="pb-5">
-        <b>Skill2</b>
-        <div class="progress">
-          <div class="progress-bar bg-dark" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div id=skill-name class="pb-5">
-        <b>Skill2</b>
-        <div class="progress">
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div id="portofolio" class="section d-flex pt-5 justify-content-center align-item-center align-self-center">
+      <div id="port_card" class="card text-center justify-content-center align-item-center align-self-center mt-5 mb-5"
+        style="width: 80vw;">
+        <h5 id="port_title" class="card-title " style="font-size: 70px;border-bottom: 2px solid #3380a3">Portofolio</h5>
+        <div id="port_tab" class="card-body d-flex flex-row justifty-content-center align-item-center align-self-center mb-5"
+          style="font-size: 30px;">
+          <a href="https://github.com/thunderseven659/Sudut-Meong" target="_blank"
+            style="text-decoration: none;color: aliceblue;">
+            <div id="port1" class="card mr-3 ml-5 ">
+              <div id="port1-title" class="card-title " style="border-bottom: 2px solid #9d32a8">
+                Sudut Meong
+              </div>
+              <div id="port1-body" class="card-body">
+                <img src="sudutmeong.png" style="border-radius: 5%;" alt="link" width="400px" height="200px">
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/thunderseven659/Data-Stock-Project" target="_blank"
+            style="text-decoration: none;color: aliceblue;">
+            <div id="port2" class="card mr-3 ml-5">
+              <div id="port2-title" class="card-title" style="border-bottom: 2px solid #e36607">
+                Data Stock
+              </div>
+              <div id="port2-body" class="card-body">
+
+                <img src="data stock.PNG" style="border-radius: 5%;" alt="link" width="400px" height="200px">
+
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/thunderseven659/Project-game-adventure" target="_blank"
+            style="text-decoration: none;color: aliceblue;">
+            <div id="port3" class="card mr-5 ml-5">
+              <div id="port3-title" class="card-title" style="border-bottom: 2px solid #59e612">
+                Games
+              </div>
+              <div id="port3-body" class="card-body">
+
+                <img src="game.PNG" style="border-radius: 5%;" alt="link" width="400px" height="200px">
+
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
+  <footer>
+    © Jason Timotius Purwoko
+    <div id="contact" class="mr-5">
+        <a href="https://thunderseven659.github.io/" target="_blank" class="">
+          <img src="git.png" width="30px" height="30px" class="">
+        </a>
+        <a href="https://www.linkedin.com/in/jason-timotius-purwoko-0007081b8/" target="_blank">
+          <img src="linkedin.jpg" width="40px" height="30px">
+        </a>
+     
+
+
+    </div>
+
+  </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
